@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="rutnug.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  
+  <div class="wrap">
+
+    <br><br><br>
+
+    <audio id="audio" loop="loop">
+      <source src="lnoe.mp3">
+    </audio>
+
+    <div class="vid">
+      <center><video src="rutnug2.mp4" class="video1"  autoplay muted loop width="20%"></video>
+    </div>
+
+    <div>
+      <center><p class="ucapan">Halooo selamat pagi/siang/sore/malam 👋🏻. semoga message ini sampai tepat pada waktunya ya. Selamat ulang tahun Aliyya Widyawati Berliana 🥳, semoga di umur yang baru ini, bukan hanya umur saja yang bertambah melainkan rezeki, suka, dan tawa. Tidak lupa juga, hal hal yang kamu inginkan dan impikan bisa tercapai. 
+        <br>
+        Dan yang gak kalah penting, semoga di tahun ini bisa diterima di PTN yang diimpikan :D</p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+<script>
+  var musik = new Audio();
+musik.src = "bouquet.mp3";
+function mainkan(){
+  var musikbtn = musik;
+  musikbtn.play()
+}
+
+document.querySelector("#close").addEventListener
+("click", function(){
+  document.querySelector(".popup").style.display =
+   "none"
+});
+
+setTimeout(function(){
+  document.getElementById("audio").play();
+  console.log("hihihaha")
+}, 2000 );
+
+window.addEventListener('click',()=>{
+  document.getElementById("audio").play();
+});
+</script>
+</html>
